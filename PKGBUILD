@@ -2,7 +2,7 @@
 
 _pkgname='Apricity Themes'
 pkgname=apricity-themes-gnome
-pkgver=0.1.9
+pkgver=1.0.0
 pkgrel=1
 pkgdesc='Gnome Assets for Apricity OS'
 arch=(any)

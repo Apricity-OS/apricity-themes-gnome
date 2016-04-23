@@ -27,7 +27,7 @@ style "default" {
 
   GtkScrollbar::trough-border = 0
   GtkRange::trough-border = 0
-  GtkRange::slider-width = 11
+  GtkRange::slider-width = 13
   GtkRange::stepper-size = 0
 
   GtkScrollbar::activate-slider = 1
@@ -60,7 +60,6 @@ style "default" {
   GtkTreeView::vertical-separator = 4
   GtkTreeView::horizontal-separator = 4
   GtkTreeView::allow-rules = 1
-  GtkTreeView::even_row_color = @base_color
   GtkTreeView::odd_row_color = shade(0.98, @base_color)
 
   GtkExpander::expander-size = 11
@@ -553,7 +552,7 @@ style "scrollbar" {
     image {
       function = BOX
       detail = "trough"
-      file = "assets/trough-scrollbar.png"
+      file = "assets/trough-scrollbar-horiz.png"
       border = { 2, 2, 3, 3 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -562,7 +561,7 @@ style "scrollbar" {
     image {
       function = BOX
       detail = "trough"
-      file = "assets/trough-scrollbar.png"
+      file = "assets/trough-scrollbar-vert.png"
       border = { 3, 3, 2, 2 }
       stretch = TRUE
       orientation = VERTICAL
