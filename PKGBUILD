@@ -2,7 +2,7 @@
 
 _pkgname='Apricity Themes'
 pkgname=apricity-themes-gnome
-pkgver=1.0.1
+pkgver=1.0.2
 pkgrel=1
 pkgdesc='Gnome Assets for Apricity OS'
 arch=(any)
@@ -13,7 +13,7 @@ replaces=(apricity-themes)
 conflicts=(apricity-themes, apricity-themes-cinnamon)
 provides=(apricity-themes)
 source=("apricity-themes-gnome.tar.gz")
-sha256sums=('1c500f365b7ceea2092ab1eefef149c73137cd0067c101119e4504bf7b11b619')
+sha256sums=('SKIP')
 install="apricity-themes-gnome.install"
 
 package() {
