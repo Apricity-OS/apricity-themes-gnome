@@ -1,0 +1,7 @@
+{
+    "shell-version": ["3.16", "3.18", "3.20"],
+    "uuid": "Move_Clock@rmy.pobox.com",
+    "name": "Frippery Move Clock",
+    "description": "Move clock to left of status menu button",
+    "url": "http://frippery.org/extensions"
+}
